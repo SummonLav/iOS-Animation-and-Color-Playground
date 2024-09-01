@@ -1,5 +1,11 @@
 Exploring the MeshGradient Functionality in iOS 18 (Beta).
 
+Ref:
+<ol>
+  <li> https://designcode.io/swiftui-handbook-mesh-gradient </li>
+  <li> https://x.com/dankuntz/status/1800290461351035346 </li>
+</ol>
+
 ### Uodated: Sep 1, 2024
 Contains:
 <ol>
