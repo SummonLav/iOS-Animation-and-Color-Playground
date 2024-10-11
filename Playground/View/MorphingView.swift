@@ -21,12 +21,14 @@ struct MorphingView: View {
             // Simply mask the canvas shape as image mask
             GeometryReader { proxy in
                 let size = proxy.size
+                // Background Image
                 Image("Mountain-Fall")
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .offset(x: -20, y: -30)
                     .frame(width: size.width, height: size.height)
                     .clipped()
+                    // Turn Off Image Morph
                     .overlay(content: {
                         Rectangle()
                             .fill(Color.white)
