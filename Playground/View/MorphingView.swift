@@ -17,7 +17,7 @@ struct MorphingView: View {
     
     var body: some View {
         VStack {
-            // MARK: Image Morph is simple
+            // MARK: Image Morph
             // Simply mask the canvas shape as image mask
             GeometryReader { proxy in
                 let size = proxy.size
@@ -94,7 +94,7 @@ struct MorphingView: View {
             })
             .padding(15.0)
             .padding(.top, -50)
-            .onChange(of: pickerImage) { newValue in
+            .onChange(of: pickerImage) { _ in
                 animateMorph = true
             }
             
