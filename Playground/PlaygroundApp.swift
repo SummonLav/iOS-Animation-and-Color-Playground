@@ -12,6 +12,7 @@ struct PlaygroundApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            //basicMeshGradient()
         }
     }
 }

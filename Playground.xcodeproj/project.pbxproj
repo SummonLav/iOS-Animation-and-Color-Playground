@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2858B1432CB80222008A54B7 /* DynamicMeshGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2858B1422CB80222008A54B7 /* DynamicMeshGradient.swift */; };
+		2858B1482CB802AD008A54B7 /* Morphing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2858B1472CB802AD008A54B7 /* Morphing.swift */; };
 		287B748C2C851634009E7E5D /* basicMeshGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287B748B2C851634009E7E5D /* basicMeshGradient.swift */; };
 		2886D4922C84F94700A44959 /* PlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2886D4912C84F94700A44959 /* PlaygroundApp.swift */; };
 		2886D4942C84F94700A44959 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2886D4932C84F94700A44959 /* ContentView.swift */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2858B1422CB80222008A54B7 /* DynamicMeshGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicMeshGradient.swift; sourceTree = "<group>"; };
+		2858B1472CB802AD008A54B7 /* Morphing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Morphing.swift; sourceTree = "<group>"; };
 		287B748B2C851634009E7E5D /* basicMeshGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basicMeshGradient.swift; sourceTree = "<group>"; };
 		2886D48E2C84F94700A44959 /* Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2886D4912C84F94700A44959 /* PlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundApp.swift; sourceTree = "<group>"; };
@@ -22,6 +26,11 @@
 		2886D4952C84F94800A44959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2886D4982C84F94800A44959 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2858B1462CB8029B008A54B7 /* View */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = View; sourceTree = "<group>"; };
+		2858B1492CB80431008A54B7 /* Model */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Model; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2886D48B2C84F94700A44959 /* Frameworks */ = {
@@ -53,9 +62,13 @@
 		2886D4902C84F94700A44959 /* Playground */ = {
 			isa = PBXGroup;
 			children = (
+				2858B1492CB80431008A54B7 /* Model */,
+				2858B1462CB8029B008A54B7 /* View */,
 				2886D4912C84F94700A44959 /* PlaygroundApp.swift */,
 				2886D4932C84F94700A44959 /* ContentView.swift */,
 				287B748B2C851634009E7E5D /* basicMeshGradient.swift */,
+				2858B1422CB80222008A54B7 /* DynamicMeshGradient.swift */,
+				2858B1472CB802AD008A54B7 /* Morphing.swift */,
 				2886D4952C84F94800A44959 /* Assets.xcassets */,
 				2886D4972C84F94800A44959 /* Preview Content */,
 			);
@@ -84,6 +97,10 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2858B1462CB8029B008A54B7 /* View */,
+				2858B1492CB80431008A54B7 /* Model */,
 			);
 			name = Playground;
 			productName = Playground;
@@ -140,6 +157,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2858B1432CB80222008A54B7 /* DynamicMeshGradient.swift in Sources */,
+				2858B1482CB802AD008A54B7 /* Morphing.swift in Sources */,
 				2886D4942C84F94700A44959 /* ContentView.swift in Sources */,
 				2886D4922C84F94700A44959 /* PlaygroundApp.swift in Sources */,
 				287B748C2C851634009E7E5D /* basicMeshGradient.swift in Sources */,
@@ -283,6 +302,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +331,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
