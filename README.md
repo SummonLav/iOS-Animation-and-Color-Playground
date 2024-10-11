@@ -2,11 +2,12 @@ Exploring the MeshGradient Functionality in iOS 18 (Beta).
 
 Ref:
 <ol>
-  <li> https://designcode.io/swiftui-handbook-mesh-gradient </li>
-  <li> https://x.com/dankuntz/status/1800290461351035346 </li>
+  <li> Mesh Gradient: https://designcode.io/swiftui-handbook-mesh-gradient </li>
+  <li> Dynamic Mesh Gradient: https://x.com/dankuntz/status/1800290461351035346 </li>
+  <li> Morphing Animation: Kavsoft@Youtube </li>
 </ol>
 
-### Uodated: Sep 1, 2024
+### Updated: Sep 1, 2024
 Contains:
 <ol>
   <li> fluid gradient - <em> ContentView.swift </em> <br>
