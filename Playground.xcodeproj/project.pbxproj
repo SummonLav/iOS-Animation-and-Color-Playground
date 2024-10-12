@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		2858B1432CB80222008A54B7 /* DynamicMeshGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2858B1422CB80222008A54B7 /* DynamicMeshGradient.swift */; };
 		2858B1482CB802AD008A54B7 /* Morphing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2858B1472CB802AD008A54B7 /* Morphing.swift */; };
-		2858B1842CB9A280008A54B7 /* CircularCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2858B1832CB9A280008A54B7 /* CircularCarousel.swift */; };
-		2858B1862CB9A2CA008A54B7 /* ParallaxCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2858B1852CB9A2CA008A54B7 /* ParallaxCarousel.swift */; };
-		2858B1882CB9A3FC008A54B7 /* StackCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2858B1872CB9A3FC008A54B7 /* StackCarousel.swift */; };
+		2858B1912CBAAF70008A54B7 /* TextfieldAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2858B1902CBAAF70008A54B7 /* TextfieldAnimation.swift */; };
+		2858B1972CBAD7B0008A54B7 /* NumericText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2858B1962CBAD7B0008A54B7 /* NumericText.swift */; };
+		2858B1992CBAD7C4008A54B7 /* JumpIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2858B1982CBAD7C4008A54B7 /* JumpIcon.swift */; };
 		287B748C2C851634009E7E5D /* basicMeshGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287B748B2C851634009E7E5D /* basicMeshGradient.swift */; };
 		2886D4922C84F94700A44959 /* PlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2886D4912C84F94700A44959 /* PlaygroundApp.swift */; };
 		2886D4942C84F94700A44959 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2886D4932C84F94700A44959 /* ContentView.swift */; };
@@ -22,9 +22,9 @@
 /* Begin PBXFileReference section */
 		2858B1422CB80222008A54B7 /* DynamicMeshGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicMeshGradient.swift; sourceTree = "<group>"; };
 		2858B1472CB802AD008A54B7 /* Morphing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Morphing.swift; sourceTree = "<group>"; };
-		2858B1832CB9A280008A54B7 /* CircularCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularCarousel.swift; sourceTree = "<group>"; };
-		2858B1852CB9A2CA008A54B7 /* ParallaxCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxCarousel.swift; sourceTree = "<group>"; };
-		2858B1872CB9A3FC008A54B7 /* StackCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackCarousel.swift; sourceTree = "<group>"; };
+		2858B1902CBAAF70008A54B7 /* TextfieldAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldAnimation.swift; sourceTree = "<group>"; };
+		2858B1962CBAD7B0008A54B7 /* NumericText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericText.swift; sourceTree = "<group>"; };
+		2858B1982CBAD7C4008A54B7 /* JumpIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpIcon.swift; sourceTree = "<group>"; };
 		287B748B2C851634009E7E5D /* basicMeshGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basicMeshGradient.swift; sourceTree = "<group>"; };
 		2886D48E2C84F94700A44959 /* Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2886D4912C84F94700A44959 /* PlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundApp.swift; sourceTree = "<group>"; };
@@ -36,6 +36,7 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2858B1462CB8029B008A54B7 /* View */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = View; sourceTree = "<group>"; };
 		2858B1492CB80431008A54B7 /* Model */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Model; sourceTree = "<group>"; };
+		2858B18F2CBAAF4A008A54B7 /* Carousel */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Carousel; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +76,10 @@
 				287B748B2C851634009E7E5D /* basicMeshGradient.swift */,
 				2858B1422CB80222008A54B7 /* DynamicMeshGradient.swift */,
 				2858B1472CB802AD008A54B7 /* Morphing.swift */,
-				2858B1832CB9A280008A54B7 /* CircularCarousel.swift */,
-				2858B1852CB9A2CA008A54B7 /* ParallaxCarousel.swift */,
-				2858B1872CB9A3FC008A54B7 /* StackCarousel.swift */,
+				2858B18F2CBAAF4A008A54B7 /* Carousel */,
+				2858B1902CBAAF70008A54B7 /* TextfieldAnimation.swift */,
+				2858B1982CBAD7C4008A54B7 /* JumpIcon.swift */,
+				2858B1962CBAD7B0008A54B7 /* NumericText.swift */,
 				2886D4952C84F94800A44959 /* Assets.xcassets */,
 				2886D4972C84F94800A44959 /* Preview Content */,
 			);
@@ -110,6 +112,7 @@
 			fileSystemSynchronizedGroups = (
 				2858B1462CB8029B008A54B7 /* View */,
 				2858B1492CB80431008A54B7 /* Model */,
+				2858B18F2CBAAF4A008A54B7 /* Carousel */,
 			);
 			name = Playground;
 			productName = Playground;
@@ -166,12 +169,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2858B1862CB9A2CA008A54B7 /* ParallaxCarousel.swift in Sources */,
+				2858B1992CBAD7C4008A54B7 /* JumpIcon.swift in Sources */,
+				2858B1972CBAD7B0008A54B7 /* NumericText.swift in Sources */,
 				2858B1432CB80222008A54B7 /* DynamicMeshGradient.swift in Sources */,
-				2858B1882CB9A3FC008A54B7 /* StackCarousel.swift in Sources */,
+				2858B1912CBAAF70008A54B7 /* TextfieldAnimation.swift in Sources */,
 				2858B1482CB802AD008A54B7 /* Morphing.swift in Sources */,
 				2886D4942C84F94700A44959 /* ContentView.swift in Sources */,
-				2858B1842CB9A280008A54B7 /* CircularCarousel.swift in Sources */,
 				2886D4922C84F94700A44959 /* PlaygroundApp.swift in Sources */,
 				287B748C2C851634009E7E5D /* basicMeshGradient.swift in Sources */,
 			);
